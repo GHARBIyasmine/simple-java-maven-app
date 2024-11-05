@@ -1,5 +1,5 @@
 # Use an official Java runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM openjdk:17-jre-slim
 
 # Add the application's JAR to the container
 COPY target/my-app-1.0-SNAPSHOT.jar /usr/app/simple-java-maven-app.jar
